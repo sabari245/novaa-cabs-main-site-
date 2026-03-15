@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Links Of CSS File -->
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/flaticon_rentq.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+        <!-- Title -->
+        <title>RentQ - Tailwind Car Rental HTML Template</title>
+
+        <!-- Font Family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body class="min-h-screen flex flex-col">
+
+        <!-- Preloader -->
+        <div
+            id="preloader"
+            class="fixed inset-0 z-[999] bg-white dark:bg-dark text-center flex items-center justify-center gap-[18px]"
+        >
+            <div class="wheel-loader w-[40px] h-[40px] rounded-full border-[5px] border-black/10 dark:border-white/10 !border-t-primary animate-spin"></div>
+            <img src="assets/images/logo.svg" class="dark:!hidden" alt="logo">
+            <img src="assets/images/white-logo.svg" class="!hidden dark:!inline" alt="logo">
+        </div>
+        <!-- End Preloader -->
+
+        <!-- Main -->
+        <main class="flex-1">
+            
+            <!-- Register -->
+            <div class="2xl:max-w-[1920px] mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <div class="lg:min-h-screen lg:order-2 py-[60px] md:py-[80px] lg:py-0">
+                        <div class="lg:table lg:w-full lg:h-full">
+                            <div class="lg:table-cell lg:align-middle">
+                                <div class="px-[12px] mx-auto sm:max-w-[640px] md:max-w-[720px]">
+                                    <div class="text-center mb-[25px] md:mb-[30px] lg:mb-[35px]">
+                                        <span class="block text-primary font-bold mb-[8px]">
+                                            Register
+                                        </span>
+                                        <h2 class="text-xl md:text-2xl lg:text-3xl leading-[1.2] mb-0">
+                                            Create an account to start using RentQ
+                                        </h2>
+                                    </div>
+                                    <form action="#" class="grid grid-cols-1 md:grid-cols-2 gap-[15px] md:gap-[20px]">
+                                        <div class="md:col-span-2">
+                                            <label for="full-name" class="block mb-[7px]">
+                                                Full name *
+                                            </label>
+                                            <input type="text" class="form-input rounded-[5px] !border-[#D9D9D9] dark:!border-white/10 !bg-transparent" placeholder="Enter your full name" id="full-name" name="full-name">
+                                        </div>
+                                        <div class="md:col-span-2">
+                                            <label for="email-address" class="block mb-[7px]">
+                                                Email address *
+                                            </label>
+                                            <input type="email" class="form-input rounded-[5px] !border-[#D9D9D9] dark:!border-white/10 !bg-transparent" placeholder="Enter email address" id="email-address" name="email-address">
+                                        </div>
+                                        <div>
+                                            <label for="password" class="block mb-[7px]">
+                                               Password *
+                                            </label>
+                                            <input type="password" class="form-input rounded-[5px] !border-[#D9D9D9] dark:!border-white/10 !bg-transparent" placeholder="************" id="password" name="password">
+                                        </div>
+                                        <div>
+                                            <label for="confirm-password" class="block mb-[7px]">
+                                                Confirm password *
+                                            </label>
+                                            <input type="password" class="form-input rounded-[5px] !border-[#D9D9D9] dark:!border-white/10 !bg-transparent" placeholder="************" id="confirm-password" name="confirm-password">
+                                        </div>
+                                        <div class="md:col-span-2">
+                                            <button
+                                                type="submit"
+                                                class="primary-btn group"
+                                            >
+                                                <span>
+                                                    Register Now
+                                                </span>
+                                                <i class="ri-login-box-line"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <div class="text-center mt-[25px] md:mt-[30px] lg:mt-[35px]">
+                                        <div class="relative z-[1] mb-[25px] md:mb-[30px] lg:mb-[35px]">
+                                            <span class="inline-block text-xl md:text-2xl lg:text-3xl leading-none font-bold text-black dark:text-white bg-white dark:bg-dark px-[25px] md:px-[35px] lg:px-[45px] xl:px-[55px]">
+                                                Or
+                                            </span>
+                                            <div class="bg-[#D9D9D9] dark:bg-white/10 h-px w-full absolute top-1/2 -translate-y-1/2 left-0 right-0 -z-[1]"></div>
+                                        </div>
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-[10px] mb-[15px] md:mb-[20px] lg:mb-[25px]">
+                                            <button
+                                                type="button"
+                                                class="block w-full border border-[#D9D9D9] dark:border-white/10 rounded-[5px] px-[20px] md:px-[25px] py-[8px] md:py-[11px] hover:border-primary"
+                                            >
+                                                <span class="flex items-center justify-center gap-[8px]">
+                                                    <i class="ri-google-fill leading-none text-2xl md:text-3xl"></i>
+                                                    Continue with Google
+                                                </span>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="block w-full border border-[#D9D9D9] dark:border-white/10 rounded-[5px] px-[20px] md:px-[25px] py-[8px] md:py-[11px] hover:border-primary"
+                                            >
+                                                <span class="flex items-center justify-center gap-[8px]">
+                                                    <i class="ri-apple-fill leading-none text-2xl md:text-3xl"></i>
+                                                    Continue with Apple
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <p>
+                                            Already have an account? <a href="login.html" class="text-primary hover:underline">Login now</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative lg:order-1">
+                        <img src="assets/images/register.jpg" class="lg:!hidden" alt="register-image">
+                        <div
+                            class="absolute inset-0 bg-cover bg-center bg-no-repeat hidden lg:block"
+                            style="background-image: url(assets/images/register.jpg);"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Register -->
+            
+        </main>
+        <!-- End Main -->
+
+        <!-- LTR/RTL Mode -->
+        <button
+            type="button"
+            id="ltrRtlToggle"
+        >
+            <i class="ri-translate"></i>
+        </button>
+        <!-- End LTR/RTL Mode -->
+
+        <!-- Light/Dark Mode -->
+        <button
+            type="button"
+            id="lightDarkToggle"
+            class="fixed bottom-[10px] md:bottom-[20px] lg:bottom-[30px] xl:bottom-[40px] ltr:right-[10px] ltr:md:right-[20px] ltr:lg:right-[30px] ltr:xl:right-[40px] rtl:left-[10px] rtl:md:left-[20px] rtl:lg:left-[30px] rtl:xl:left-[40px] z-[9] flex items-center justify-center w-[41px] h-[42px] transition-all duration-300 ease-in-out text-black bg-white dark:bg-black dark:text-white hover:text-primary text-lg shadow-[0_8px_24px_rgba(149,157,165,0.3)] dark:shadow-none"
+        >
+            <i class="ri-translate"></i>
+        </button>
+        <!-- End Light/Dark Mode -->
+
+        <!-- Links Of JS File -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/fslightbox.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>

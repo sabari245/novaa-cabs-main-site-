@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Links Of CSS File -->
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/flaticon_rentq.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+        <!-- Title -->
+        <title>RentQ - Tailwind Car Rental HTML Template</title>
+
+        <!-- Font Family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body class="min-h-screen flex !bg-[#f4f4f4] dark:!bg-dark">
+
+        <!-- Preloader -->
+        <div
+            id="preloader"
+            class="fixed inset-0 z-[999] bg-white dark:bg-dark text-center flex items-center justify-center gap-[18px]"
+        >
+            <div class="wheel-loader w-[40px] h-[40px] rounded-full border-[5px] border-black/10 dark:border-white/10 !border-t-primary animate-spin"></div>
+            <img src="assets/images/logo.svg" class="dark:!hidden" alt="logo">
+            <img src="assets/images/white-logo.svg" class="!hidden dark:!inline" alt="logo">
+        </div>
+        <!-- End Preloader -->
+        
+        <!-- Sidebar -->
+        <aside
+            class="dashboard-sidebar w-[240px] md:w-[250px] lg:w-[260px] fixed top-0 ltr:left-0 rtl:right-0 bottom-0 z-[2] bg-white dark:bg-black transform lg:!transform-none ltr:-translate-x-full lg:!translate-none rtl:translate-x-full opacity-0 lg:opacity-100 invisible lg:visible transition-all duration-300 ease-in-out"
+        >
+            <div class="absolute top-0 left-0 right-0 lg:text-center px-[15px] md:px-[20px] lg:px-[25px] py-[20px] md:py-[25px] lg:py-[30px] bg-white dark:bg-black">
+                <a
+                    href="index.html"
+                    class="inline-block"
+                >
+                    <img src="assets/images/logo.svg" class="dark:!hidden" alt="logo">
+                    <img src="assets/images/white-logo.svg" class="!hidden dark:!inline" alt="white-logo">
+                </a>
+                <button
+                    type="button"
+                    class="dashboard-sidebar-toggle inline-block lg:hidden leading-none text-2xl md:text-3xl absolute top-1/2 -translate-y-1/2 ltr:right-[15px] rtl:left-[15px] ltr:md:right-[20px] rtl:md:left-[20px] ltr:lg:right-[25px] rtl:lg:left-[25px] text-black dark:text-white hover:text-primary"
+                >
+                    <i class="ri-close-fill"></i>
+                </button>
+            </div>
+            <nav class="overflow-y-scroll h-screen scrollbar pt-[80px] md:pt-[90px] lg:pt-[100px]">
+                <ul class="px-[15px] md:px-[20px] lg:px-[25px] pb-[20px] md:pb-[25px] lg:pb-[30px]">
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px]">
+                            Main
+                        </span>
+                        <a href="dashboard.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-home-8-fill"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-booking.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-calendar-check-fill"></i>
+                            Booking
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-vehicles.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-car-fill"></i>
+                            Vehicles
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-customers.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-group-fill"></i>
+                            Customers
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px] mt-[20px] md:mt-[25px] lg:mt-[30px]">
+                            Management
+                        </span>
+                        <a href="dashboard-locations.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-map-pin-fill"></i>
+                            Locations
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-payments.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-bank-card-fill"></i>
+                            Payments
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-reports.html" class="flex items-center gap-[10px] text-primary">
+                            <i class="ri-file-chart-line"></i>
+                            Reports
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px] mt-[20px] md:mt-[25px] lg:mt-[30px]">
+                            Support
+                        </span>
+                        <a href="dashboard-help-center.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-question-fill"></i>
+                            Help Center
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-settings.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-settings-5-fill"></i>
+                            Settings
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px] mt-[20px] md:mt-[25px] lg:mt-[30px]">
+                            Others
+                        </span>
+                        <a href="index.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-logout-box-fill"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- End Sidebar -->
+
+        <div class="flex flex-col flex-1 gap-[15px] md:gap-[20px] lg:gap-[25px] p-[15px] md:p-[20px] lg:p-[25px] !pb-0 ltr:lg:!pl-[285px] rtl:lg:!pr-[285px] overflow-hidden">
+            
+            <!-- Header -->
+            <header class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px] md:flex items-center justify-between">
+                <div class="flex items-center justify-center gap-[15px]">
+                    <button
+                        type="button"
+                        class="dashboard-sidebar-toggle flex-none inline-block lg:hidden leading-none text-2xl md:text-3xl text-black dark:text-white hover:text-primary"
+                    >
+                        <i class="ri-menu-line"></i>
+                    </button>
+                    <form
+                        action="#"
+                        class="relative w-full md:w-[300px] xl:w-[365px]"
+                    >
+                        <input
+                            type="text"
+                            id="search"
+                            name="search"
+                            placeholder="Search..."
+                            class="form-input !bg-transparent rounded-[5px] !border-[#d9d9d9] dark:!border-white/10"
+                        >
+                        <button
+                            type="submit"
+                            class="absolute top-1/2 -translate-y-1/2 ltr:right-[15px] rtl:left-[15px] ltr:md:right-[20px] rtl:md:left-[20px] text-xl leading-none text-black dark:text-white hover:text-primary"
+                        >
+                            <i class="ri-search-line"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="flex items-center justify-center gap-[15px] md:gap-[20px] mt-[15px] md:mt-0">
+                    <button
+                        type="button"
+                        id="lightDarkToggle"
+                        class="inline-block text-xl leading-none text-[#fe7a36]"
+                    >
+                        <i class="ri-sun-fill"></i>
+                    </button>
+                    <button
+                        type="button"
+                        class="inline-block relative text-xl ltr:pr-[5px] rtl:pl-[5px] leading-none text-black dark:text-white hover:text-primary"
+                    >
+                        <i class="ri-notification-3-fill"></i>
+                        <span class="flex items-center justify-center rounded-full bg-primary text-white w-[14px] h-[14px] text-[10px] font-medium absolute -top-[5px] ltr:right-0 rtl:left-0">
+                            1
+                        </span>
+                    </button>
+                    <button
+                        type="button"
+                        class="inline-block relative text-xl ltr:pr-[5px] rtl:pl-[5px] leading-none text-black dark:text-white hover:text-primary"
+                    >
+                        <i class="ri-mail-fill"></i>
+                        <span class="flex items-center justify-center rounded-full bg-primary text-white w-[14px] h-[14px] text-[10px] font-medium absolute -top-[5px] ltr:right-0 rtl:left-0">
+                            0
+                        </span>
+                    </button>
+                    <a
+                        href="dashboard-settings.html"
+                        class="inline-block w-[40px] md:w-[50px] rounded-full"
+                    >
+                        <img src="assets/images/admin.jpg" class="rounded-full" alt="admin-image">
+                    </a>
+                </div>
+            </header>
+            <!-- End Header -->
+            
+            <!-- Main -->
+            <main class="flex-1 flex flex-col gap-[15px] md:gap-[20px] lg:gap-[25px]">
+                
+                <!-- Title -->
+                <div class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px]">
+                    <h2 class="text-xl md:text-2xl lg:text-3xl leading-[1.2] mb-[5px]">
+                        Business Reports
+                    </h2>
+                    <p>
+                        Generate and view business performance reports.
+                    </p>
+                </div>
+                <!-- End Title -->
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-[25px]">
+                    <div class="text-center rounded-[5px] border border-[#FFD7D9] dark:border-white/10 bg-[#FFF1F1] dark:bg-black p-[15px] md:p-[20px] lg:p-[25px] xl:py-[40px]">
+                        <span class="block text-xl md:text-2xl lg:text-3xl leading-none font-bold text-black dark:text-white mb-[5px] md:mb-[8px]">
+                            $24,580
+                        </span>
+                        <span class="block">
+                            Monthly Revenue
+                        </span>
+                    </div>
+                    <div class="text-center rounded-[5px] border border-[#FFD9BE] dark:border-white/10 bg-[#FFF2E8] dark:bg-black p-[15px] md:p-[20px] lg:p-[25px] xl:py-[40px]">
+                        <span class="block text-xl md:text-2xl lg:text-3xl leading-none font-bold text-black dark:text-white mb-[5px] md:mb-[8px]">
+                            84%
+                        </span>
+                        <span class="block">
+                            Fleet Utilization
+                        </span>
+                    </div>
+                    <div class="text-center rounded-[5px] border border-[#E8DAFF] dark:border-white/10 bg-[#F6F2FF] dark:bg-black p-[15px] md:p-[20px] lg:p-[25px] xl:py-[40px]">
+                        <span class="block text-xl md:text-2xl lg:text-3xl leading-none font-bold text-black dark:text-white mb-[5px] md:mb-[8px]">
+                            42
+                        </span>
+                        <span class="block">
+                            New Customers (30 days)
+                        </span>
+                    </div>
+                    <div class="text-center rounded-[5px] border border-[#A7F0BA] dark:border-white/10 bg-[#DEFBE6] dark:bg-black p-[15px] md:p-[20px] lg:p-[25px] xl:py-[40px]">
+                        <span class="block text-xl md:text-2xl lg:text-3xl leading-none font-bold text-black dark:text-white mb-[5px] md:mb-[8px]">
+                            92%
+                        </span>
+                        <span class="block">
+                            Satisfaction Rate
+                        </span>
+                    </div>
+                </div>
+                <!-- End Stats -->
+                
+                <!-- Reports -->
+                <div class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px]">
+                    <h3 class="text-base md:text-lg lg:text-xl leading-[1.2] mb-[15px] md:mb-[20px]">
+                        Generate Report
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-[15px] md:gap-[20px]">
+                        <div>
+                            <label for="report-type" class="block mb-[7px]">
+                                Report Type
+                            </label>
+                            <select name="report-type" id="report-type" class="form-select rounded-[5px] !border-[#D9D9D9] dark:!border-white/10 !bg-transparent">
+                                <option value="0" selected>
+                                    Revenue report
+                                </option>
+                                <option value="1">
+                                    Fleet report
+                                </option>
+                                <option value="2">
+                                    Customer report
+                                </option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="date-range" class="block mb-[7px]">
+                                Date Range
+                            </label>
+                            <select name="date-range" id="date-range" class="form-select rounded-[5px] !border-[#D9D9D9] dark:!border-white/10 !bg-transparent">
+                                <option value="0" selected>
+                                    Last 7 days
+                                </option>
+                                <option value="1">
+                                    Last 14 days
+                                </option>
+                                <option value="2">
+                                    Last 30 days
+                                </option>
+                            </select>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <button
+                                type="submit"
+                                class="primary-btn group"
+                            >
+                                <span>
+                                    Generate Report
+                                </span>
+                                <i class="ri-file-chart-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Reports -->
+
+            </main>
+            <!-- End Main -->
+            
+            <!-- Footer -->
+            <footer class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-t-[5px] text-center">
+                <div class="text-center">
+                    © RentQ. All Rights Reserved. Powered by <a href="https://envytheme.com/" class="text-primary font-semibold hover:underline" target="_blank">EnvyTheme</a>
+                </div>
+            </footer>
+            <!-- End Footer -->
+            
+        </div>
+
+        <!-- Back To Top -->
+        <button
+            type="button"
+            id="backToTopBtn"
+        >
+            <i class="flaticon-up-arrow"></i>
+        </button>
+        <!-- End Back To Top -->
+
+        <!-- LTR/RTL Mode -->
+        <button
+            type="button"
+            id="ltrRtlToggle"
+        >
+            <i class="ri-translate"></i>
+        </button>
+        <!-- End LTR/RTL Mode -->
+
+        <!-- Links Of JS File -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/fslightbox.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>

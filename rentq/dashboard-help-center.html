@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Links Of CSS File -->
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/flaticon_rentq.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+        <!-- Title -->
+        <title>RentQ - Tailwind Car Rental HTML Template</title>
+
+        <!-- Font Family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body class="min-h-screen flex !bg-[#f4f4f4] dark:!bg-dark">
+
+        <!-- Preloader -->
+        <div
+            id="preloader"
+            class="fixed inset-0 z-[999] bg-white dark:bg-dark text-center flex items-center justify-center gap-[18px]"
+        >
+            <div class="wheel-loader w-[40px] h-[40px] rounded-full border-[5px] border-black/10 dark:border-white/10 !border-t-primary animate-spin"></div>
+            <img src="assets/images/logo.svg" class="dark:!hidden" alt="logo">
+            <img src="assets/images/white-logo.svg" class="!hidden dark:!inline" alt="logo">
+        </div>
+        <!-- End Preloader -->
+        
+        <!-- Sidebar -->
+        <aside
+            class="dashboard-sidebar w-[240px] md:w-[250px] lg:w-[260px] fixed top-0 ltr:left-0 rtl:right-0 bottom-0 z-[2] bg-white dark:bg-black transform lg:!transform-none ltr:-translate-x-full lg:!translate-none rtl:translate-x-full opacity-0 lg:opacity-100 invisible lg:visible transition-all duration-300 ease-in-out"
+        >
+            <div class="absolute top-0 left-0 right-0 lg:text-center px-[15px] md:px-[20px] lg:px-[25px] py-[20px] md:py-[25px] lg:py-[30px] bg-white dark:bg-black">
+                <a
+                    href="index.html"
+                    class="inline-block"
+                >
+                    <img src="assets/images/logo.svg" class="dark:!hidden" alt="logo">
+                    <img src="assets/images/white-logo.svg" class="!hidden dark:!inline" alt="white-logo">
+                </a>
+                <button
+                    type="button"
+                    class="dashboard-sidebar-toggle inline-block lg:hidden leading-none text-2xl md:text-3xl absolute top-1/2 -translate-y-1/2 ltr:right-[15px] rtl:left-[15px] ltr:md:right-[20px] rtl:md:left-[20px] ltr:lg:right-[25px] rtl:lg:left-[25px] text-black dark:text-white hover:text-primary"
+                >
+                    <i class="ri-close-fill"></i>
+                </button>
+            </div>
+            <nav class="overflow-y-scroll h-screen scrollbar pt-[80px] md:pt-[90px] lg:pt-[100px]">
+                <ul class="px-[15px] md:px-[20px] lg:px-[25px] pb-[20px] md:pb-[25px] lg:pb-[30px]">
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px]">
+                            Main
+                        </span>
+                        <a href="dashboard.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-home-8-fill"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-booking.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-calendar-check-fill"></i>
+                            Booking
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-vehicles.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-car-fill"></i>
+                            Vehicles
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-customers.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-group-fill"></i>
+                            Customers
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px] mt-[20px] md:mt-[25px] lg:mt-[30px]">
+                            Management
+                        </span>
+                        <a href="dashboard-locations.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-map-pin-fill"></i>
+                            Locations
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-payments.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-bank-card-fill"></i>
+                            Payments
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-reports.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-file-chart-line"></i>
+                            Reports
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px] mt-[20px] md:mt-[25px] lg:mt-[30px]">
+                            Support
+                        </span>
+                        <a href="dashboard-help-center.html" class="flex items-center gap-[10px] text-primary">
+                            <i class="ri-question-fill"></i>
+                            Help Center
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-settings.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-settings-5-fill"></i>
+                            Settings
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px] mt-[20px] md:mt-[25px] lg:mt-[30px]">
+                            Others
+                        </span>
+                        <a href="index.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-logout-box-fill"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- End Sidebar -->
+
+        <div class="flex flex-col flex-1 gap-[15px] md:gap-[20px] lg:gap-[25px] p-[15px] md:p-[20px] lg:p-[25px] !pb-0 ltr:lg:!pl-[285px] rtl:lg:!pr-[285px] overflow-hidden">
+            
+            <!-- Header -->
+            <header class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px] md:flex items-center justify-between">
+                <div class="flex items-center justify-center gap-[15px]">
+                    <button
+                        type="button"
+                        class="dashboard-sidebar-toggle flex-none inline-block lg:hidden leading-none text-2xl md:text-3xl text-black dark:text-white hover:text-primary"
+                    >
+                        <i class="ri-menu-line"></i>
+                    </button>
+                    <form
+                        action="#"
+                        class="relative w-full md:w-[300px] xl:w-[365px]"
+                    >
+                        <input
+                            type="text"
+                            id="search"
+                            name="search"
+                            placeholder="Search..."
+                            class="form-input !bg-transparent rounded-[5px] !border-[#d9d9d9] dark:!border-white/10"
+                        >
+                        <button
+                            type="submit"
+                            class="absolute top-1/2 -translate-y-1/2 ltr:right-[15px] rtl:left-[15px] ltr:md:right-[20px] rtl:md:left-[20px] text-xl leading-none text-black dark:text-white hover:text-primary"
+                        >
+                            <i class="ri-search-line"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="flex items-center justify-center gap-[15px] md:gap-[20px] mt-[15px] md:mt-0">
+                    <button
+                        type="button"
+                        id="lightDarkToggle"
+                        class="inline-block text-xl leading-none text-[#fe7a36]"
+                    >
+                        <i class="ri-sun-fill"></i>
+                    </button>
+                    <button
+                        type="button"
+                        class="inline-block relative text-xl ltr:pr-[5px] rtl:pl-[5px] leading-none text-black dark:text-white hover:text-primary"
+                    >
+                        <i class="ri-notification-3-fill"></i>
+                        <span class="flex items-center justify-center rounded-full bg-primary text-white w-[14px] h-[14px] text-[10px] font-medium absolute -top-[5px] ltr:right-0 rtl:left-0">
+                            1
+                        </span>
+                    </button>
+                    <button
+                        type="button"
+                        class="inline-block relative text-xl ltr:pr-[5px] rtl:pl-[5px] leading-none text-black dark:text-white hover:text-primary"
+                    >
+                        <i class="ri-mail-fill"></i>
+                        <span class="flex items-center justify-center rounded-full bg-primary text-white w-[14px] h-[14px] text-[10px] font-medium absolute -top-[5px] ltr:right-0 rtl:left-0">
+                            0
+                        </span>
+                    </button>
+                    <a
+                        href="dashboard-settings.html"
+                        class="inline-block w-[40px] md:w-[50px] rounded-full"
+                    >
+                        <img src="assets/images/admin.jpg" class="rounded-full" alt="admin-image">
+                    </a>
+                </div>
+            </header>
+            <!-- End Header -->
+            
+            <!-- Main -->
+            <main class="flex-1 flex flex-col gap-[15px] md:gap-[20px] lg:gap-[25px]">
+                
+                <!-- Title -->
+                <div class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px]">
+                    <h2 class="text-xl md:text-2xl lg:text-3xl leading-[1.2] mb-[5px]">
+                        Help Center
+                    </h2>
+                    <p>
+                        Find answers to common questions and get support.
+                    </p>
+                </div>
+                <!-- End Title -->
+                
+                <!-- Help Center -->
+                <div class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px]">
+                    <h3 class="text-base md:text-lg lg:text-xl leading-[1.2] mb-[15px] md:mb-[20px] lg:mb-[25px]">
+                        Frequently Asked Questions
+                    </h3>
+                    <ul>
+                        <li class="border-b border-[#ECECEC] dark:border-white/10 py-[10px] md:py-[15px] lg:py-[20px] first:pt-0">
+                            <h3 class="text-sm md:text-15 lg:text-base leading-[1.2] mb-[8px]">
+                                1. How do I add a new vehicle to the fleet?
+                            </h3>
+                            <p>
+                                Go to Vehicles page and click "Add New Vehicle"
+                            </p>
+                        </li>
+                        <li class="border-b border-[#ECECEC] dark:border-white/10 py-[10px] md:py-[15px] lg:py-[20px] first:pt-0">
+                            <h3 class="text-sm md:text-15 lg:text-base leading-[1.2] mb-[8px]">
+                                2. How can I generate a revenue report?
+                            </h3>
+                            <p>
+                                Navigate to Reports page and select revenue report type
+                            </p>
+                        </li>
+                        <li class="border-b border-[#ECECEC] dark:border-white/10 py-[10px] md:py-[15px] lg:py-[20px] first:pt-0">
+                            <h3 class="text-sm md:text-15 lg:text-base leading-[1.2] mb-[8px]">
+                                3. What should I do if a payment fails?
+                            </h3>
+                            <p>
+                                Check the Payments page and contact the customer directly
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Help Center -->
+                
+                <!-- Contact Support -->
+                <div class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px]">
+                    <h3 class="text-base md:text-lg lg:text-xl leading-[1.2] mb-[10px]">
+                        Contact Support
+                    </h3>
+                    <p>
+                        If you need further assistance, our support team is available 24/7.
+                    </p>
+                    <div class="flex items-center gap-y-[10px] gap-x-[25px] md:mt-[20px] lg:mt-[25px]">
+                        <a href="#" class="block font-semibold text-black dark:text-white hover:text-primary underline">
+                            Call Support
+                        </a>
+                        <a href="#" class="block font-semibold text-black dark:text-white hover:text-primary underline">
+                            Email Support
+                        </a>
+                    </div>
+                </div>
+                <!-- End Contact Support -->
+
+            </main>
+            <!-- End Main -->
+            
+            <!-- Footer -->
+            <footer class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-t-[5px] text-center">
+                <div class="text-center">
+                    © RentQ. All Rights Reserved. Powered by <a href="https://envytheme.com/" class="text-primary font-semibold hover:underline" target="_blank">EnvyTheme</a>
+                </div>
+            </footer>
+            <!-- End Footer -->
+            
+        </div>
+
+        <!-- Back To Top -->
+        <button
+            type="button"
+            id="backToTopBtn"
+        >
+            <i class="flaticon-up-arrow"></i>
+        </button>
+        <!-- End Back To Top -->
+
+        <!-- LTR/RTL Mode -->
+        <button
+            type="button"
+            id="ltrRtlToggle"
+        >
+            <i class="ri-translate"></i>
+        </button>
+        <!-- End LTR/RTL Mode -->
+
+        <!-- Links Of JS File -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/fslightbox.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>

@@ -1,0 +1,1049 @@
+$flaticon_rentq-font: "flaticon_rentq";
+
+@font-face {
+    font-family: $flaticon_rentq-font;
+    src: url("./flaticon_rentq.woff2?149cec814e1d7cd76ef614c2c9064702") format("woff2"),
+url("./flaticon_rentq.woff?149cec814e1d7cd76ef614c2c9064702") format("woff"),
+url("./flaticon_rentq.eot?149cec814e1d7cd76ef614c2c9064702#iefix") format("embedded-opentype"),
+url("./flaticon_rentq.ttf?149cec814e1d7cd76ef614c2c9064702") format("truetype"),
+url("./flaticon_rentq.svg?149cec814e1d7cd76ef614c2c9064702#flaticon_rentq") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_rentq !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_rentq-map: (
+    "check-mark": "\f101",
+    "checked": "\f102",
+    "check": "\f103",
+    "tag": "\f104",
+    "tag-1": "\f105",
+    "price-tag": "\f106",
+    "tag-2": "\f107",
+    "calendar": "\f108",
+    "schedule": "\f109",
+    "heart": "\f10a",
+    "like": "\f10b",
+    "close": "\f10c",
+    "plus": "\f10d",
+    "minus": "\f10e",
+    "save-instagram": "\f10f",
+    "bookmark": "\f110",
+    "view": "\f111",
+    "hide": "\f112",
+    "padlock": "\f113",
+    "unlock": "\f114",
+    "star": "\f115",
+    "star-1": "\f116",
+    "star-2": "\f117",
+    "setting": "\f118",
+    "settings": "\f119",
+    "shopping-cart": "\f11a",
+    "grocery-store": "\f11b",
+    "shopping-bag": "\f11c",
+    "shopping-bag-1": "\f11d",
+    "info": "\f11e",
+    "info-1": "\f11f",
+    "warning": "\f120",
+    "warning-1": "\f121",
+    "exclamation": "\f122",
+    "menu": "\f123",
+    "dots": "\f124",
+    "dots-menu": "\f125",
+    "play-button-arrowhead": "\f126",
+    "play-button": "\f127",
+    "play-button-1": "\f128",
+    "download": "\f129",
+    "downloading": "\f12a",
+    "download-to-storage-drive": "\f12b",
+    "like-1": "\f12c",
+    "like-2": "\f12d",
+    "dislike": "\f12e",
+    "dislike-1": "\f12f",
+    "bell": "\f130",
+    "bell-1": "\f131",
+    "left-chevron": "\f132",
+    "up-arrow": "\f133",
+    "down-arrow": "\f134",
+    "chevron": "\f135",
+    "right-arrow": "\f136",
+    "left-arrow": "\f137",
+    "user": "\f138",
+    "user-1": "\f139",
+    "user-2": "\f13a",
+    "user-3": "\f13b",
+    "edit": "\f13c",
+    "edit-1": "\f13d",
+    "edit-text": "\f13e",
+    "email": "\f13f",
+    "email-1": "\f140",
+    "email-2": "\f141",
+    "phone-call": "\f142",
+    "telephone": "\f143",
+    "customer-service": "\f144",
+    "location": "\f145",
+    "maps-and-flags": "\f146",
+    "location-1": "\f147",
+    "worldwide": "\f148",
+    "home": "\f149",
+    "home-1": "\f14a",
+    "home-2": "\f14b",
+    "search-interface-symbol": "\f14c",
+    "search": "\f14d",
+    "people": "\f14e",
+    "multiple-users-silhouette": "\f14f",
+    "trash-bin": "\f150",
+    "bin": "\f151",
+    "target": "\f152",
+    "target-1": "\f153",
+    "facebook": "\f154",
+    "facebook-1": "\f155",
+    "instagram": "\f156",
+    "instagram-1": "\f157",
+    "youtube": "\f158",
+    "youtube-1": "\f159",
+    "tik-tok": "\f15a",
+    "tik-tok-1": "\f15b",
+    "whatsapp": "\f15c",
+    "whatsapp-1": "\f15d",
+    "linkedin": "\f15e",
+    "linkedin-1": "\f15f",
+    "twitter": "\f160",
+    "twitter-1": "\f161",
+    "snapchat": "\f162",
+    "snapchat-1": "\f163",
+    "pinterest": "\f164",
+    "pinterest-1": "\f165",
+    "messenger": "\f166",
+    "chat": "\f167",
+    "telegram": "\f168",
+    "telegram-1": "\f169",
+    "wechat": "\f16a",
+    "wechat-1": "\f16b",
+    "quora": "\f16c",
+    "quora-1": "\f16d",
+    "reddit": "\f16e",
+    "reddit-logo": "\f16f",
+    "discord": "\f170",
+    "discord-1": "\f171",
+    "twitch": "\f172",
+    "twitch-1": "\f173",
+    "threads": "\f174",
+    "threads-1": "\f175",
+    "dribble": "\f176",
+    "dribble-1": "\f177",
+    "behance": "\f178",
+    "behance-1": "\f179",
+    "vimeo": "\f17a",
+    "vimeo-1": "\f17b",
+    "google": "\f17c",
+    "dropbox": "\f17d",
+    "dropbox-1": "\f17e",
+    "vkontakte": "\f17f",
+    "vk": "\f180",
+    "playstore": "\f181",
+    "app": "\f182",
+    "customer-support": "\f183",
+    "wrench": "\f184",
+    "insurance": "\f185",
+    "secure-payment": "\f186",
+    "location-2": "\f187",
+    "track": "\f188",
+    "baby-car-seat": "\f189",
+    "briefcase": "\f18a",
+    "air-conditioner": "\f18b",
+    "automatic-transmission": "\f18c",
+    "price-tag-1": "\f18d",
+    "protection": "\f18e",
+    "24-hours-support": "\f18f",
+    "support": "\f190",
+    "booking": "\f191",
+    "calendar-1": "\f192",
+    "booking-online": "\f193",
+    "hands": "\f194",
+    "returning-customer": "\f195",
+    "work-schedule": "\f196",
+    "real-time": "\f197",
+    "tripadvisor": "\f198",
+    "yelp": "\f199",
+    "social": "\f19a",
+    "car-insurance": "\f19b",
+    "punctuality": "\f19c",
+    "chauffeur": "\f19d",
+    "dance": "\f19e",
+    "luxury": "\f19f",
+    "handshake": "\f1a0",
+    "innovation": "\f1a1",
+    "innovation-1": "\f1a2",
+    "collaboration": "\f1a3",
+    "safety": "\f1a4",
+    "car-service": "\f1a5",
+    "car": "\f1a6",
+    "quality-assurance": "\f1a7",
+    "parking-area": "\f1a8",
+    "warning-2": "\f1a9",
+    "car-1": "\f1aa",
+    "blind-spot": "\f1ab",
+    "car-wheel": "\f1ac",
+    "car-2": "\f1ad",
+    "location-3": "\f1ae",
+    "insurance-1": "\f1af",
+    "tools": "\f1b0",
+    "minibus": "\f1b1",
+    "city-map": "\f1b2",
+    "steering-wheel": "\f1b3",
+    "credit-card": "\f1b4",
+    "bike-helmet": "\f1b5",
+    "bike": "\f1b6",
+    "contract": "\f1b7",
+    "bike-lane": "\f1b8",
+    "truck": "\f1b9",
+    "van": "\f1ba",
+    "car-sharing": "\f1bb",
+    "segway": "\f1bc",
+    "bus": "\f1bd",
+    "hand": "\f1be",
+    "scooter": "\f1bf",
+    "website": "\f1c0",
+    "sustainability": "\f1c1",
+    "taxi": "\f1c2",
+    "search-1": "\f1c3",
+    "car-key": "\f1c4",
+    "skateboard": "\f1c5",
+    "electric-car": "\f1c6",
+    "app-1": "\f1c7",
+    "suv": "\f1c8",
+    "drivers-license": "\f1c9",
+    "motorbike": "\f1ca",
+    "air-conditioning": "\f1cb",
+    "calendar-2": "\f1cc",
+    "car-radio": "\f1cd",
+    "convertible-car": "\f1ce",
+    "garage": "\f1cf",
+    "helmet": "\f1d0",
+    "hoverboard": "\f1d1",
+    "limousine": "\f1d2",
+    "battery": "\f1d3",
+    "monowheel": "\f1d4",
+    "parking-sign": "\f1d5",
+    "price": "\f1d6",
+    "rating": "\f1d7",
+    "school-bus": "\f1d8",
+    "self-service": "\f1d9",
+    "time": "\f1da",
+    "bike-1": "\f1db",
+    "wifi": "\f1dc",
+    "bus-1": "\f1dd",
+    "car-3": "\f1de",
+    "elevator": "\f1df",
+    "rickshaw": "\f1e0",
+    "mileage": "\f1e1",
+    "bicycle": "\f1e2",
+    "motorbike-1": "\f1e3",
+    "crossroad": "\f1e4",
+    "bus-2": "\f1e5",
+    "stop-watch": "\f1e6",
+    "rocket": "\f1e7",
+    "truck-1": "\f1e8",
+    "car-4": "\f1e9",
+    "stop-sign": "\f1ea",
+    "truck-2": "\f1eb",
+    "tanker": "\f1ec",
+    "bus-3": "\f1ed",
+    "sports-car": "\f1ee",
+    "bus-4": "\f1ef",
+    "scooter-1": "\f1f0",
+    "ship": "\f1f1",
+    "yacht": "\f1f2",
+    "battery-1": "\f1f3",
+    "van-1": "\f1f4",
+    "truck-3": "\f1f5",
+    "mover-truck": "\f1f6",
+    "school-bus-1": "\f1f7",
+    "ship-1": "\f1f8",
+    "truck-4": "\f1f9",
+    "ticket": "\f1fa",
+    "sailboat": "\f1fb",
+    "van-2": "\f1fc",
+    "truck-5": "\f1fd",
+    "school-bus-2": "\f1fe",
+    "stop-watch-1": "\f1ff",
+    "car-5": "\f200",
+);
+
+.flaticon-check-mark:before {
+    content: map-get($flaticon_rentq-map, "check-mark");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon_rentq-map, "checked");
+}
+.flaticon-check:before {
+    content: map-get($flaticon_rentq-map, "check");
+}
+.flaticon-tag:before {
+    content: map-get($flaticon_rentq-map, "tag");
+}
+.flaticon-tag-1:before {
+    content: map-get($flaticon_rentq-map, "tag-1");
+}
+.flaticon-price-tag:before {
+    content: map-get($flaticon_rentq-map, "price-tag");
+}
+.flaticon-tag-2:before {
+    content: map-get($flaticon_rentq-map, "tag-2");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon_rentq-map, "calendar");
+}
+.flaticon-schedule:before {
+    content: map-get($flaticon_rentq-map, "schedule");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon_rentq-map, "heart");
+}
+.flaticon-like:before {
+    content: map-get($flaticon_rentq-map, "like");
+}
+.flaticon-close:before {
+    content: map-get($flaticon_rentq-map, "close");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon_rentq-map, "plus");
+}
+.flaticon-minus:before {
+    content: map-get($flaticon_rentq-map, "minus");
+}
+.flaticon-save-instagram:before {
+    content: map-get($flaticon_rentq-map, "save-instagram");
+}
+.flaticon-bookmark:before {
+    content: map-get($flaticon_rentq-map, "bookmark");
+}
+.flaticon-view:before {
+    content: map-get($flaticon_rentq-map, "view");
+}
+.flaticon-hide:before {
+    content: map-get($flaticon_rentq-map, "hide");
+}
+.flaticon-padlock:before {
+    content: map-get($flaticon_rentq-map, "padlock");
+}
+.flaticon-unlock:before {
+    content: map-get($flaticon_rentq-map, "unlock");
+}
+.flaticon-star:before {
+    content: map-get($flaticon_rentq-map, "star");
+}
+.flaticon-star-1:before {
+    content: map-get($flaticon_rentq-map, "star-1");
+}
+.flaticon-star-2:before {
+    content: map-get($flaticon_rentq-map, "star-2");
+}
+.flaticon-setting:before {
+    content: map-get($flaticon_rentq-map, "setting");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon_rentq-map, "settings");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon_rentq-map, "shopping-cart");
+}
+.flaticon-grocery-store:before {
+    content: map-get($flaticon_rentq-map, "grocery-store");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon_rentq-map, "shopping-bag");
+}
+.flaticon-shopping-bag-1:before {
+    content: map-get($flaticon_rentq-map, "shopping-bag-1");
+}
+.flaticon-info:before {
+    content: map-get($flaticon_rentq-map, "info");
+}
+.flaticon-info-1:before {
+    content: map-get($flaticon_rentq-map, "info-1");
+}
+.flaticon-warning:before {
+    content: map-get($flaticon_rentq-map, "warning");
+}
+.flaticon-warning-1:before {
+    content: map-get($flaticon_rentq-map, "warning-1");
+}
+.flaticon-exclamation:before {
+    content: map-get($flaticon_rentq-map, "exclamation");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon_rentq-map, "menu");
+}
+.flaticon-dots:before {
+    content: map-get($flaticon_rentq-map, "dots");
+}
+.flaticon-dots-menu:before {
+    content: map-get($flaticon_rentq-map, "dots-menu");
+}
+.flaticon-play-button-arrowhead:before {
+    content: map-get($flaticon_rentq-map, "play-button-arrowhead");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon_rentq-map, "play-button");
+}
+.flaticon-play-button-1:before {
+    content: map-get($flaticon_rentq-map, "play-button-1");
+}
+.flaticon-download:before {
+    content: map-get($flaticon_rentq-map, "download");
+}
+.flaticon-downloading:before {
+    content: map-get($flaticon_rentq-map, "downloading");
+}
+.flaticon-download-to-storage-drive:before {
+    content: map-get($flaticon_rentq-map, "download-to-storage-drive");
+}
+.flaticon-like-1:before {
+    content: map-get($flaticon_rentq-map, "like-1");
+}
+.flaticon-like-2:before {
+    content: map-get($flaticon_rentq-map, "like-2");
+}
+.flaticon-dislike:before {
+    content: map-get($flaticon_rentq-map, "dislike");
+}
+.flaticon-dislike-1:before {
+    content: map-get($flaticon_rentq-map, "dislike-1");
+}
+.flaticon-bell:before {
+    content: map-get($flaticon_rentq-map, "bell");
+}
+.flaticon-bell-1:before {
+    content: map-get($flaticon_rentq-map, "bell-1");
+}
+.flaticon-left-chevron:before {
+    content: map-get($flaticon_rentq-map, "left-chevron");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon_rentq-map, "up-arrow");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon_rentq-map, "down-arrow");
+}
+.flaticon-chevron:before {
+    content: map-get($flaticon_rentq-map, "chevron");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_rentq-map, "right-arrow");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon_rentq-map, "left-arrow");
+}
+.flaticon-user:before {
+    content: map-get($flaticon_rentq-map, "user");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon_rentq-map, "user-1");
+}
+.flaticon-user-2:before {
+    content: map-get($flaticon_rentq-map, "user-2");
+}
+.flaticon-user-3:before {
+    content: map-get($flaticon_rentq-map, "user-3");
+}
+.flaticon-edit:before {
+    content: map-get($flaticon_rentq-map, "edit");
+}
+.flaticon-edit-1:before {
+    content: map-get($flaticon_rentq-map, "edit-1");
+}
+.flaticon-edit-text:before {
+    content: map-get($flaticon_rentq-map, "edit-text");
+}
+.flaticon-email:before {
+    content: map-get($flaticon_rentq-map, "email");
+}
+.flaticon-email-1:before {
+    content: map-get($flaticon_rentq-map, "email-1");
+}
+.flaticon-email-2:before {
+    content: map-get($flaticon_rentq-map, "email-2");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon_rentq-map, "phone-call");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon_rentq-map, "telephone");
+}
+.flaticon-customer-service:before {
+    content: map-get($flaticon_rentq-map, "customer-service");
+}
+.flaticon-location:before {
+    content: map-get($flaticon_rentq-map, "location");
+}
+.flaticon-maps-and-flags:before {
+    content: map-get($flaticon_rentq-map, "maps-and-flags");
+}
+.flaticon-location-1:before {
+    content: map-get($flaticon_rentq-map, "location-1");
+}
+.flaticon-worldwide:before {
+    content: map-get($flaticon_rentq-map, "worldwide");
+}
+.flaticon-home:before {
+    content: map-get($flaticon_rentq-map, "home");
+}
+.flaticon-home-1:before {
+    content: map-get($flaticon_rentq-map, "home-1");
+}
+.flaticon-home-2:before {
+    content: map-get($flaticon_rentq-map, "home-2");
+}
+.flaticon-search-interface-symbol:before {
+    content: map-get($flaticon_rentq-map, "search-interface-symbol");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_rentq-map, "search");
+}
+.flaticon-people:before {
+    content: map-get($flaticon_rentq-map, "people");
+}
+.flaticon-multiple-users-silhouette:before {
+    content: map-get($flaticon_rentq-map, "multiple-users-silhouette");
+}
+.flaticon-trash-bin:before {
+    content: map-get($flaticon_rentq-map, "trash-bin");
+}
+.flaticon-bin:before {
+    content: map-get($flaticon_rentq-map, "bin");
+}
+.flaticon-target:before {
+    content: map-get($flaticon_rentq-map, "target");
+}
+.flaticon-target-1:before {
+    content: map-get($flaticon_rentq-map, "target-1");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon_rentq-map, "facebook");
+}
+.flaticon-facebook-1:before {
+    content: map-get($flaticon_rentq-map, "facebook-1");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon_rentq-map, "instagram");
+}
+.flaticon-instagram-1:before {
+    content: map-get($flaticon_rentq-map, "instagram-1");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon_rentq-map, "youtube");
+}
+.flaticon-youtube-1:before {
+    content: map-get($flaticon_rentq-map, "youtube-1");
+}
+.flaticon-tik-tok:before {
+    content: map-get($flaticon_rentq-map, "tik-tok");
+}
+.flaticon-tik-tok-1:before {
+    content: map-get($flaticon_rentq-map, "tik-tok-1");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon_rentq-map, "whatsapp");
+}
+.flaticon-whatsapp-1:before {
+    content: map-get($flaticon_rentq-map, "whatsapp-1");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon_rentq-map, "linkedin");
+}
+.flaticon-linkedin-1:before {
+    content: map-get($flaticon_rentq-map, "linkedin-1");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon_rentq-map, "twitter");
+}
+.flaticon-twitter-1:before {
+    content: map-get($flaticon_rentq-map, "twitter-1");
+}
+.flaticon-snapchat:before {
+    content: map-get($flaticon_rentq-map, "snapchat");
+}
+.flaticon-snapchat-1:before {
+    content: map-get($flaticon_rentq-map, "snapchat-1");
+}
+.flaticon-pinterest:before {
+    content: map-get($flaticon_rentq-map, "pinterest");
+}
+.flaticon-pinterest-1:before {
+    content: map-get($flaticon_rentq-map, "pinterest-1");
+}
+.flaticon-messenger:before {
+    content: map-get($flaticon_rentq-map, "messenger");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon_rentq-map, "chat");
+}
+.flaticon-telegram:before {
+    content: map-get($flaticon_rentq-map, "telegram");
+}
+.flaticon-telegram-1:before {
+    content: map-get($flaticon_rentq-map, "telegram-1");
+}
+.flaticon-wechat:before {
+    content: map-get($flaticon_rentq-map, "wechat");
+}
+.flaticon-wechat-1:before {
+    content: map-get($flaticon_rentq-map, "wechat-1");
+}
+.flaticon-quora:before {
+    content: map-get($flaticon_rentq-map, "quora");
+}
+.flaticon-quora-1:before {
+    content: map-get($flaticon_rentq-map, "quora-1");
+}
+.flaticon-reddit:before {
+    content: map-get($flaticon_rentq-map, "reddit");
+}
+.flaticon-reddit-logo:before {
+    content: map-get($flaticon_rentq-map, "reddit-logo");
+}
+.flaticon-discord:before {
+    content: map-get($flaticon_rentq-map, "discord");
+}
+.flaticon-discord-1:before {
+    content: map-get($flaticon_rentq-map, "discord-1");
+}
+.flaticon-twitch:before {
+    content: map-get($flaticon_rentq-map, "twitch");
+}
+.flaticon-twitch-1:before {
+    content: map-get($flaticon_rentq-map, "twitch-1");
+}
+.flaticon-threads:before {
+    content: map-get($flaticon_rentq-map, "threads");
+}
+.flaticon-threads-1:before {
+    content: map-get($flaticon_rentq-map, "threads-1");
+}
+.flaticon-dribble:before {
+    content: map-get($flaticon_rentq-map, "dribble");
+}
+.flaticon-dribble-1:before {
+    content: map-get($flaticon_rentq-map, "dribble-1");
+}
+.flaticon-behance:before {
+    content: map-get($flaticon_rentq-map, "behance");
+}
+.flaticon-behance-1:before {
+    content: map-get($flaticon_rentq-map, "behance-1");
+}
+.flaticon-vimeo:before {
+    content: map-get($flaticon_rentq-map, "vimeo");
+}
+.flaticon-vimeo-1:before {
+    content: map-get($flaticon_rentq-map, "vimeo-1");
+}
+.flaticon-google:before {
+    content: map-get($flaticon_rentq-map, "google");
+}
+.flaticon-dropbox:before {
+    content: map-get($flaticon_rentq-map, "dropbox");
+}
+.flaticon-dropbox-1:before {
+    content: map-get($flaticon_rentq-map, "dropbox-1");
+}
+.flaticon-vkontakte:before {
+    content: map-get($flaticon_rentq-map, "vkontakte");
+}
+.flaticon-vk:before {
+    content: map-get($flaticon_rentq-map, "vk");
+}
+.flaticon-playstore:before {
+    content: map-get($flaticon_rentq-map, "playstore");
+}
+.flaticon-app:before {
+    content: map-get($flaticon_rentq-map, "app");
+}
+.flaticon-customer-support:before {
+    content: map-get($flaticon_rentq-map, "customer-support");
+}
+.flaticon-wrench:before {
+    content: map-get($flaticon_rentq-map, "wrench");
+}
+.flaticon-insurance:before {
+    content: map-get($flaticon_rentq-map, "insurance");
+}
+.flaticon-secure-payment:before {
+    content: map-get($flaticon_rentq-map, "secure-payment");
+}
+.flaticon-location-2:before {
+    content: map-get($flaticon_rentq-map, "location-2");
+}
+.flaticon-track:before {
+    content: map-get($flaticon_rentq-map, "track");
+}
+.flaticon-baby-car-seat:before {
+    content: map-get($flaticon_rentq-map, "baby-car-seat");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon_rentq-map, "briefcase");
+}
+.flaticon-air-conditioner:before {
+    content: map-get($flaticon_rentq-map, "air-conditioner");
+}
+.flaticon-automatic-transmission:before {
+    content: map-get($flaticon_rentq-map, "automatic-transmission");
+}
+.flaticon-price-tag-1:before {
+    content: map-get($flaticon_rentq-map, "price-tag-1");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon_rentq-map, "protection");
+}
+.flaticon-24-hours-support:before {
+    content: map-get($flaticon_rentq-map, "24-hours-support");
+}
+.flaticon-support:before {
+    content: map-get($flaticon_rentq-map, "support");
+}
+.flaticon-booking:before {
+    content: map-get($flaticon_rentq-map, "booking");
+}
+.flaticon-calendar-1:before {
+    content: map-get($flaticon_rentq-map, "calendar-1");
+}
+.flaticon-booking-online:before {
+    content: map-get($flaticon_rentq-map, "booking-online");
+}
+.flaticon-hands:before {
+    content: map-get($flaticon_rentq-map, "hands");
+}
+.flaticon-returning-customer:before {
+    content: map-get($flaticon_rentq-map, "returning-customer");
+}
+.flaticon-work-schedule:before {
+    content: map-get($flaticon_rentq-map, "work-schedule");
+}
+.flaticon-real-time:before {
+    content: map-get($flaticon_rentq-map, "real-time");
+}
+.flaticon-tripadvisor:before {
+    content: map-get($flaticon_rentq-map, "tripadvisor");
+}
+.flaticon-yelp:before {
+    content: map-get($flaticon_rentq-map, "yelp");
+}
+.flaticon-social:before {
+    content: map-get($flaticon_rentq-map, "social");
+}
+.flaticon-car-insurance:before {
+    content: map-get($flaticon_rentq-map, "car-insurance");
+}
+.flaticon-punctuality:before {
+    content: map-get($flaticon_rentq-map, "punctuality");
+}
+.flaticon-chauffeur:before {
+    content: map-get($flaticon_rentq-map, "chauffeur");
+}
+.flaticon-dance:before {
+    content: map-get($flaticon_rentq-map, "dance");
+}
+.flaticon-luxury:before {
+    content: map-get($flaticon_rentq-map, "luxury");
+}
+.flaticon-handshake:before {
+    content: map-get($flaticon_rentq-map, "handshake");
+}
+.flaticon-innovation:before {
+    content: map-get($flaticon_rentq-map, "innovation");
+}
+.flaticon-innovation-1:before {
+    content: map-get($flaticon_rentq-map, "innovation-1");
+}
+.flaticon-collaboration:before {
+    content: map-get($flaticon_rentq-map, "collaboration");
+}
+.flaticon-safety:before {
+    content: map-get($flaticon_rentq-map, "safety");
+}
+.flaticon-car-service:before {
+    content: map-get($flaticon_rentq-map, "car-service");
+}
+.flaticon-car:before {
+    content: map-get($flaticon_rentq-map, "car");
+}
+.flaticon-quality-assurance:before {
+    content: map-get($flaticon_rentq-map, "quality-assurance");
+}
+.flaticon-parking-area:before {
+    content: map-get($flaticon_rentq-map, "parking-area");
+}
+.flaticon-warning-2:before {
+    content: map-get($flaticon_rentq-map, "warning-2");
+}
+.flaticon-car-1:before {
+    content: map-get($flaticon_rentq-map, "car-1");
+}
+.flaticon-blind-spot:before {
+    content: map-get($flaticon_rentq-map, "blind-spot");
+}
+.flaticon-car-wheel:before {
+    content: map-get($flaticon_rentq-map, "car-wheel");
+}
+.flaticon-car-2:before {
+    content: map-get($flaticon_rentq-map, "car-2");
+}
+.flaticon-location-3:before {
+    content: map-get($flaticon_rentq-map, "location-3");
+}
+.flaticon-insurance-1:before {
+    content: map-get($flaticon_rentq-map, "insurance-1");
+}
+.flaticon-tools:before {
+    content: map-get($flaticon_rentq-map, "tools");
+}
+.flaticon-minibus:before {
+    content: map-get($flaticon_rentq-map, "minibus");
+}
+.flaticon-city-map:before {
+    content: map-get($flaticon_rentq-map, "city-map");
+}
+.flaticon-steering-wheel:before {
+    content: map-get($flaticon_rentq-map, "steering-wheel");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon_rentq-map, "credit-card");
+}
+.flaticon-bike-helmet:before {
+    content: map-get($flaticon_rentq-map, "bike-helmet");
+}
+.flaticon-bike:before {
+    content: map-get($flaticon_rentq-map, "bike");
+}
+.flaticon-contract:before {
+    content: map-get($flaticon_rentq-map, "contract");
+}
+.flaticon-bike-lane:before {
+    content: map-get($flaticon_rentq-map, "bike-lane");
+}
+.flaticon-truck:before {
+    content: map-get($flaticon_rentq-map, "truck");
+}
+.flaticon-van:before {
+    content: map-get($flaticon_rentq-map, "van");
+}
+.flaticon-car-sharing:before {
+    content: map-get($flaticon_rentq-map, "car-sharing");
+}
+.flaticon-segway:before {
+    content: map-get($flaticon_rentq-map, "segway");
+}
+.flaticon-bus:before {
+    content: map-get($flaticon_rentq-map, "bus");
+}
+.flaticon-hand:before {
+    content: map-get($flaticon_rentq-map, "hand");
+}
+.flaticon-scooter:before {
+    content: map-get($flaticon_rentq-map, "scooter");
+}
+.flaticon-website:before {
+    content: map-get($flaticon_rentq-map, "website");
+}
+.flaticon-sustainability:before {
+    content: map-get($flaticon_rentq-map, "sustainability");
+}
+.flaticon-taxi:before {
+    content: map-get($flaticon_rentq-map, "taxi");
+}
+.flaticon-search-1:before {
+    content: map-get($flaticon_rentq-map, "search-1");
+}
+.flaticon-car-key:before {
+    content: map-get($flaticon_rentq-map, "car-key");
+}
+.flaticon-skateboard:before {
+    content: map-get($flaticon_rentq-map, "skateboard");
+}
+.flaticon-electric-car:before {
+    content: map-get($flaticon_rentq-map, "electric-car");
+}
+.flaticon-app-1:before {
+    content: map-get($flaticon_rentq-map, "app-1");
+}
+.flaticon-suv:before {
+    content: map-get($flaticon_rentq-map, "suv");
+}
+.flaticon-drivers-license:before {
+    content: map-get($flaticon_rentq-map, "drivers-license");
+}
+.flaticon-motorbike:before {
+    content: map-get($flaticon_rentq-map, "motorbike");
+}
+.flaticon-air-conditioning:before {
+    content: map-get($flaticon_rentq-map, "air-conditioning");
+}
+.flaticon-calendar-2:before {
+    content: map-get($flaticon_rentq-map, "calendar-2");
+}
+.flaticon-car-radio:before {
+    content: map-get($flaticon_rentq-map, "car-radio");
+}
+.flaticon-convertible-car:before {
+    content: map-get($flaticon_rentq-map, "convertible-car");
+}
+.flaticon-garage:before {
+    content: map-get($flaticon_rentq-map, "garage");
+}
+.flaticon-helmet:before {
+    content: map-get($flaticon_rentq-map, "helmet");
+}
+.flaticon-hoverboard:before {
+    content: map-get($flaticon_rentq-map, "hoverboard");
+}
+.flaticon-limousine:before {
+    content: map-get($flaticon_rentq-map, "limousine");
+}
+.flaticon-battery:before {
+    content: map-get($flaticon_rentq-map, "battery");
+}
+.flaticon-monowheel:before {
+    content: map-get($flaticon_rentq-map, "monowheel");
+}
+.flaticon-parking-sign:before {
+    content: map-get($flaticon_rentq-map, "parking-sign");
+}
+.flaticon-price:before {
+    content: map-get($flaticon_rentq-map, "price");
+}
+.flaticon-rating:before {
+    content: map-get($flaticon_rentq-map, "rating");
+}
+.flaticon-school-bus:before {
+    content: map-get($flaticon_rentq-map, "school-bus");
+}
+.flaticon-self-service:before {
+    content: map-get($flaticon_rentq-map, "self-service");
+}
+.flaticon-time:before {
+    content: map-get($flaticon_rentq-map, "time");
+}
+.flaticon-bike-1:before {
+    content: map-get($flaticon_rentq-map, "bike-1");
+}
+.flaticon-wifi:before {
+    content: map-get($flaticon_rentq-map, "wifi");
+}
+.flaticon-bus-1:before {
+    content: map-get($flaticon_rentq-map, "bus-1");
+}
+.flaticon-car-3:before {
+    content: map-get($flaticon_rentq-map, "car-3");
+}
+.flaticon-elevator:before {
+    content: map-get($flaticon_rentq-map, "elevator");
+}
+.flaticon-rickshaw:before {
+    content: map-get($flaticon_rentq-map, "rickshaw");
+}
+.flaticon-mileage:before {
+    content: map-get($flaticon_rentq-map, "mileage");
+}
+.flaticon-bicycle:before {
+    content: map-get($flaticon_rentq-map, "bicycle");
+}
+.flaticon-motorbike-1:before {
+    content: map-get($flaticon_rentq-map, "motorbike-1");
+}
+.flaticon-crossroad:before {
+    content: map-get($flaticon_rentq-map, "crossroad");
+}
+.flaticon-bus-2:before {
+    content: map-get($flaticon_rentq-map, "bus-2");
+}
+.flaticon-stop-watch:before {
+    content: map-get($flaticon_rentq-map, "stop-watch");
+}
+.flaticon-rocket:before {
+    content: map-get($flaticon_rentq-map, "rocket");
+}
+.flaticon-truck-1:before {
+    content: map-get($flaticon_rentq-map, "truck-1");
+}
+.flaticon-car-4:before {
+    content: map-get($flaticon_rentq-map, "car-4");
+}
+.flaticon-stop-sign:before {
+    content: map-get($flaticon_rentq-map, "stop-sign");
+}
+.flaticon-truck-2:before {
+    content: map-get($flaticon_rentq-map, "truck-2");
+}
+.flaticon-tanker:before {
+    content: map-get($flaticon_rentq-map, "tanker");
+}
+.flaticon-bus-3:before {
+    content: map-get($flaticon_rentq-map, "bus-3");
+}
+.flaticon-sports-car:before {
+    content: map-get($flaticon_rentq-map, "sports-car");
+}
+.flaticon-bus-4:before {
+    content: map-get($flaticon_rentq-map, "bus-4");
+}
+.flaticon-scooter-1:before {
+    content: map-get($flaticon_rentq-map, "scooter-1");
+}
+.flaticon-ship:before {
+    content: map-get($flaticon_rentq-map, "ship");
+}
+.flaticon-yacht:before {
+    content: map-get($flaticon_rentq-map, "yacht");
+}
+.flaticon-battery-1:before {
+    content: map-get($flaticon_rentq-map, "battery-1");
+}
+.flaticon-van-1:before {
+    content: map-get($flaticon_rentq-map, "van-1");
+}
+.flaticon-truck-3:before {
+    content: map-get($flaticon_rentq-map, "truck-3");
+}
+.flaticon-mover-truck:before {
+    content: map-get($flaticon_rentq-map, "mover-truck");
+}
+.flaticon-school-bus-1:before {
+    content: map-get($flaticon_rentq-map, "school-bus-1");
+}
+.flaticon-ship-1:before {
+    content: map-get($flaticon_rentq-map, "ship-1");
+}
+.flaticon-truck-4:before {
+    content: map-get($flaticon_rentq-map, "truck-4");
+}
+.flaticon-ticket:before {
+    content: map-get($flaticon_rentq-map, "ticket");
+}
+.flaticon-sailboat:before {
+    content: map-get($flaticon_rentq-map, "sailboat");
+}
+.flaticon-van-2:before {
+    content: map-get($flaticon_rentq-map, "van-2");
+}
+.flaticon-truck-5:before {
+    content: map-get($flaticon_rentq-map, "truck-5");
+}
+.flaticon-school-bus-2:before {
+    content: map-get($flaticon_rentq-map, "school-bus-2");
+}
+.flaticon-stop-watch-1:before {
+    content: map-get($flaticon_rentq-map, "stop-watch-1");
+}
+.flaticon-car-5:before {
+    content: map-get($flaticon_rentq-map, "car-5");
+}

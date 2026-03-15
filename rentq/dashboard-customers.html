@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Links Of CSS File -->
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/flaticon_rentq.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+        <!-- Title -->
+        <title>RentQ - Tailwind Car Rental HTML Template</title>
+
+        <!-- Font Family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body class="min-h-screen flex !bg-[#f4f4f4] dark:!bg-dark">
+
+        <!-- Preloader -->
+        <div
+            id="preloader"
+            class="fixed inset-0 z-[999] bg-white dark:bg-dark text-center flex items-center justify-center gap-[18px]"
+        >
+            <div class="wheel-loader w-[40px] h-[40px] rounded-full border-[5px] border-black/10 dark:border-white/10 !border-t-primary animate-spin"></div>
+            <img src="assets/images/logo.svg" class="dark:!hidden" alt="logo">
+            <img src="assets/images/white-logo.svg" class="!hidden dark:!inline" alt="logo">
+        </div>
+        <!-- End Preloader -->
+        
+        <!-- Sidebar -->
+        <aside
+            class="dashboard-sidebar w-[240px] md:w-[250px] lg:w-[260px] fixed top-0 ltr:left-0 rtl:right-0 bottom-0 z-[2] bg-white dark:bg-black transform lg:!transform-none ltr:-translate-x-full lg:!translate-none rtl:translate-x-full opacity-0 lg:opacity-100 invisible lg:visible transition-all duration-300 ease-in-out"
+        >
+            <div class="absolute top-0 left-0 right-0 lg:text-center px-[15px] md:px-[20px] lg:px-[25px] py-[20px] md:py-[25px] lg:py-[30px] bg-white dark:bg-black">
+                <a
+                    href="index.html"
+                    class="inline-block"
+                >
+                    <img src="assets/images/logo.svg" class="dark:!hidden" alt="logo">
+                    <img src="assets/images/white-logo.svg" class="!hidden dark:!inline" alt="white-logo">
+                </a>
+                <button
+                    type="button"
+                    class="dashboard-sidebar-toggle inline-block lg:hidden leading-none text-2xl md:text-3xl absolute top-1/2 -translate-y-1/2 ltr:right-[15px] rtl:left-[15px] ltr:md:right-[20px] rtl:md:left-[20px] ltr:lg:right-[25px] rtl:lg:left-[25px] text-black dark:text-white hover:text-primary"
+                >
+                    <i class="ri-close-fill"></i>
+                </button>
+            </div>
+            <nav class="overflow-y-scroll h-screen scrollbar pt-[80px] md:pt-[90px] lg:pt-[100px]">
+                <ul class="px-[15px] md:px-[20px] lg:px-[25px] pb-[20px] md:pb-[25px] lg:pb-[30px]">
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px]">
+                            Main
+                        </span>
+                        <a href="dashboard.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-home-8-fill"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-booking.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-calendar-check-fill"></i>
+                            Booking
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-vehicles.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-car-fill"></i>
+                            Vehicles
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-customers.html" class="flex items-center gap-[10px] text-primary">
+                            <i class="ri-group-fill"></i>
+                            Customers
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px] mt-[20px] md:mt-[25px] lg:mt-[30px]">
+                            Management
+                        </span>
+                        <a href="dashboard-locations.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-map-pin-fill"></i>
+                            Locations
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-payments.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-bank-card-fill"></i>
+                            Payments
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-reports.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-file-chart-line"></i>
+                            Reports
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px] mt-[20px] md:mt-[25px] lg:mt-[30px]">
+                            Support
+                        </span>
+                        <a href="dashboard-help-center.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-question-fill"></i>
+                            Help Center
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <a href="dashboard-settings.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-settings-5-fill"></i>
+                            Settings
+                        </a>
+                    </li>
+                    <li class="mb-[13px] last:mb-0">
+                        <span class="block text-[#bbbbbb] dark:text-white/40 mb-[12px] mt-[20px] md:mt-[25px] lg:mt-[30px]">
+                            Others
+                        </span>
+                        <a href="index.html" class="flex items-center gap-[10px] text-black dark:text-white hover:text-primary">
+                            <i class="ri-logout-box-fill"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- End Sidebar -->
+
+        <div class="flex flex-col flex-1 gap-[15px] md:gap-[20px] lg:gap-[25px] p-[15px] md:p-[20px] lg:p-[25px] !pb-0 ltr:lg:!pl-[285px] rtl:lg:!pr-[285px] overflow-hidden">
+            
+            <!-- Header -->
+            <header class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px] md:flex items-center justify-between">
+                <div class="flex items-center justify-center gap-[15px]">
+                    <button
+                        type="button"
+                        class="dashboard-sidebar-toggle flex-none inline-block lg:hidden leading-none text-2xl md:text-3xl text-black dark:text-white hover:text-primary"
+                    >
+                        <i class="ri-menu-line"></i>
+                    </button>
+                    <form
+                        action="#"
+                        class="relative w-full md:w-[300px] xl:w-[365px]"
+                    >
+                        <input
+                            type="text"
+                            id="search"
+                            name="search"
+                            placeholder="Search..."
+                            class="form-input !bg-transparent rounded-[5px] !border-[#d9d9d9] dark:!border-white/10"
+                        >
+                        <button
+                            type="submit"
+                            class="absolute top-1/2 -translate-y-1/2 ltr:right-[15px] rtl:left-[15px] ltr:md:right-[20px] rtl:md:left-[20px] text-xl leading-none text-black dark:text-white hover:text-primary"
+                        >
+                            <i class="ri-search-line"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="flex items-center justify-center gap-[15px] md:gap-[20px] mt-[15px] md:mt-0">
+                    <button
+                        type="button"
+                        id="lightDarkToggle"
+                        class="inline-block text-xl leading-none text-[#fe7a36]"
+                    >
+                        <i class="ri-sun-fill"></i>
+                    </button>
+                    <button
+                        type="button"
+                        class="inline-block relative text-xl ltr:pr-[5px] rtl:pl-[5px] leading-none text-black dark:text-white hover:text-primary"
+                    >
+                        <i class="ri-notification-3-fill"></i>
+                        <span class="flex items-center justify-center rounded-full bg-primary text-white w-[14px] h-[14px] text-[10px] font-medium absolute -top-[5px] ltr:right-0 rtl:left-0">
+                            1
+                        </span>
+                    </button>
+                    <button
+                        type="button"
+                        class="inline-block relative text-xl ltr:pr-[5px] rtl:pl-[5px] leading-none text-black dark:text-white hover:text-primary"
+                    >
+                        <i class="ri-mail-fill"></i>
+                        <span class="flex items-center justify-center rounded-full bg-primary text-white w-[14px] h-[14px] text-[10px] font-medium absolute -top-[5px] ltr:right-0 rtl:left-0">
+                            0
+                        </span>
+                    </button>
+                    <a
+                        href="dashboard-settings.html"
+                        class="inline-block w-[40px] md:w-[50px] rounded-full"
+                    >
+                        <img src="assets/images/admin.jpg" class="rounded-full" alt="admin-image">
+                    </a>
+                </div>
+            </header>
+            <!-- End Header -->
+            
+            <!-- Main -->
+            <main class="flex-1 flex flex-col gap-[15px] md:gap-[20px] lg:gap-[25px]">
+                
+                <!-- Title -->
+                <div class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px]">
+                    <h2 class="text-xl md:text-2xl lg:text-3xl leading-[1.2] mb-[5px]">
+                        Customer Management
+                    </h2>
+                    <p>
+                        View and manage your customer database.
+                    </p>
+                </div>
+                <!-- End Title -->
+                
+                <!-- Customers -->
+                <div class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-[5px]">
+                    <div class="overflow-x-auto">
+                        <table class="w-full">
+                            <thead>
+                                <tr>
+                                    <th class="font-bold text-black dark:text-white align-middle whitespace-nowrap bg-[#f4f4f4] dark:bg-dark ltr:text-left rtl:text-right text-base md:text-lg lg:text-xl px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:first:rounded-l-[5px] rtl:first:rounded-r-[5px] ltr:last:rounded-r-[5px] rtl:last:rounded-l-[5px]">
+                                        Customer ID
+                                    </th>
+                                    <th class="font-bold text-black dark:text-white align-middle whitespace-nowrap bg-[#f4f4f4] dark:bg-dark ltr:text-left rtl:text-right text-base md:text-lg lg:text-xl px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:first:rounded-l-[5px] rtl:first:rounded-r-[5px] ltr:last:rounded-r-[5px] rtl:last:rounded-l-[5px]">
+                                        Name
+                                    </th>
+                                    <th class="font-bold text-black dark:text-white align-middle whitespace-nowrap bg-[#f4f4f4] dark:bg-dark ltr:text-left rtl:text-right text-base md:text-lg lg:text-xl px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:first:rounded-l-[5px] rtl:first:rounded-r-[5px] ltr:last:rounded-r-[5px] rtl:last:rounded-l-[5px]">
+                                        Email
+                                    </th>
+                                    <th class="font-bold text-black dark:text-white align-middle whitespace-nowrap bg-[#f4f4f4] dark:bg-dark ltr:text-left rtl:text-right text-base md:text-lg lg:text-xl px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:first:rounded-l-[5px] rtl:first:rounded-r-[5px] ltr:last:rounded-r-[5px] rtl:last:rounded-l-[5px]">
+                                        Phone
+                                    </th>
+                                    <th class="font-bold text-black dark:text-white align-middle whitespace-nowrap bg-[#f4f4f4] dark:bg-dark ltr:text-left rtl:text-right text-base md:text-lg lg:text-xl px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:first:rounded-l-[5px] rtl:first:rounded-r-[5px] ltr:last:rounded-r-[5px] rtl:last:rounded-l-[5px]">
+                                        Join Date
+                                    </th>
+                                    <th class="font-bold text-black dark:text-white align-middle whitespace-nowrap bg-[#f4f4f4] dark:bg-dark ltr:text-left rtl:text-right text-base md:text-lg lg:text-xl px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:first:rounded-l-[5px] rtl:first:rounded-r-[5px] ltr:last:rounded-r-[5px] rtl:last:rounded-l-[5px]">
+                                        Total Rentals
+                                    </th>
+                                    <th class="font-bold text-black dark:text-white align-middle whitespace-nowrap bg-[#f4f4f4] dark:bg-dark ltr:text-left rtl:text-right text-base md:text-lg lg:text-xl px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:first:rounded-l-[5px] rtl:first:rounded-r-[5px] ltr:last:rounded-r-[5px] rtl:last:rounded-l-[5px]">
+                                        Actions
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        #CUS-001
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Ruth Myers
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        ruth@rentq.com
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        (555) 123-9595
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Jan 15, 2026
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        $38/day
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        <div class="flex items-center gap-[12px]">
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-eye-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-edit-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-delete-bin-line"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        #CUS-002
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Robert Lopez
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        rebert@rentq.com
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        (555) 258-7585
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Jan 14, 2026
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        $65/day
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        <div class="flex items-center gap-[12px]">
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-eye-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-edit-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-delete-bin-line"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        #CUS-003
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Josefina Burnside
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        josefina@rentq.com
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        (555) 159-1515
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Jan 13, 2026
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        $129/day
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        <div class="flex items-center gap-[12px]">
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-eye-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-edit-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-delete-bin-line"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        #CUS-004
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Clarence Happel
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        happle@rentq.com
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        (555) 747-6545
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Jan 12, 2026
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        $99/day
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        <div class="flex items-center gap-[12px]">
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-eye-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-edit-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-delete-bin-line"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        #CUS-005
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Kevin McLain
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        kevin@rentq.com
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        (555) 353-4785
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        Jan 11, 2026
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        $75/day
+                                    </td>
+                                    <td class="align-middle whitespace-nowrap px-[15px] md:px-[20px] lg:px-[25px] py-[10px] md:py-[15px] lg:py-[20px] ltr:text-left rtl:text-right border-b border-[#D9D9D9] dark:border-white/10">
+                                        <div class="flex items-center gap-[12px]">
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-eye-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-edit-line"></i>
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="inline-block leading-none hover:text-primary"
+                                            >
+                                                <i class="ri-delete-bin-line"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- End Customers -->
+
+            </main>
+            <!-- End Main -->
+            
+            <!-- Footer -->
+            <footer class="p-[15px] md:p-[20px] lg:p-[25px] bg-white dark:bg-black rounded-t-[5px] text-center">
+                <div class="text-center">
+                    © RentQ. All Rights Reserved. Powered by <a href="https://envytheme.com/" class="text-primary font-semibold hover:underline" target="_blank">EnvyTheme</a>
+                </div>
+            </footer>
+            <!-- End Footer -->
+            
+        </div>
+
+        <!-- Back To Top -->
+        <button
+            type="button"
+            id="backToTopBtn"
+        >
+            <i class="flaticon-up-arrow"></i>
+        </button>
+        <!-- End Back To Top -->
+
+        <!-- LTR/RTL Mode -->
+        <button
+            type="button"
+            id="ltrRtlToggle"
+        >
+            <i class="ri-translate"></i>
+        </button>
+        <!-- End LTR/RTL Mode -->
+
+        <!-- Links Of JS File -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/fslightbox.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
