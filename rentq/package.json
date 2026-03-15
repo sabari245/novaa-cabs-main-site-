@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i ./assets/scss/style.scss -o ./assets/css/style.css --watch",
+    "dev": "npx concurrently \"npx tailwindcss -i ./assets/scss/style.scss -o ./assets/css/style.css --watch\" \"npx serve -l 3000\"",
     "build": "npx tailwindcss -i ./assets/scss/style.scss -o ./assets/css/style.css --minify"
   },
   "dependencies": {
