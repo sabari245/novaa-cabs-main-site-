@@ -1,8 +1,24 @@
 {
-  "name": "novaa-cabs-main-site",
+  "name": "rentq-site",
   "private": true,
   "scripts": {
-    "build": "cd rentq && npm install && npm run build",
-    "dev": "cd rentq && npm install && npm run dev"
+    "dev": "concurrently \"npm run dev:css\" \"npm run dev:serve\"",
+    "dev:css": "tailwindcss -i ./assets/scss/style.scss -o ./assets/css/style.css --watch",
+    "dev:serve": "serve . -l 3000",
+    "build": "tailwindcss -i ./assets/scss/style.scss -o ./assets/css/style.css --minify",
+    "preview": "serve . -s -l 3000",
+    "cf:dev": "wrangler pages dev .",
+    "cf:deploy": "npm run build && wrangler pages deploy . --project-name=${CLOUDFLARE_PAGES_PROJECT:-novaa-cabs}",
+    "cf:deploy:prod": "npm run build && wrangler pages deploy . --project-name=${CLOUDFLARE_PAGES_PROJECT:-novaa-cabs} --branch=main"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "concurrently": "^9.2.1",
+    "serve": "^14.2.4",
+    "tailwindcss": "^4.1.17",
+    "wrangler": "^4.8.0"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
