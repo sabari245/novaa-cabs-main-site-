@@ -6,17 +6,18 @@
     "dev:css": "tailwindcss -i ./assets/scss/style.scss -o ./assets/css/style.css --watch",
     "dev:serve": "serve . -l 3000",
     "build": "tailwindcss -i ./assets/scss/style.scss -o ./assets/css/style.css --minify",
-    "preview": "serve . -s -l 3000",
+    "preview": "wrangler dev",
     "cf:dev": "wrangler pages dev .",
     "cf:deploy": "npm run build && wrangler pages deploy . --project-name=${CLOUDFLARE_PAGES_PROJECT:-novaa-cabs}",
-    "cf:deploy:prod": "npm run build && wrangler pages deploy . --project-name=${CLOUDFLARE_PAGES_PROJECT:-novaa-cabs} --branch=main"
+    "cf:deploy:prod": "npm run build && wrangler pages deploy . --project-name=${CLOUDFLARE_PAGES_PROJECT:-novaa-cabs} --branch=main",
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.17",
     "concurrently": "^9.2.1",
     "serve": "^14.2.4",
     "tailwindcss": "^4.1.17",
-    "wrangler": "^4.8.0"
+    "wrangler": "^4.76.0"
   },
   "engines": {
     "node": "20.x"
