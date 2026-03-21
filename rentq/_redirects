@@ -1,2 +1,2 @@
-# Redirect non-existent pages to error page
-/* /error.html 404
+# Serve error page for non-existent pages (200 = rewrite, serves content at original URL)
+/* /error.html 200
