@@ -1,2 +1,2 @@
-# Serve error page for non-existent pages (200 = rewrite, serves content at original URL)
-/* /error.html 200
+# Cloudflare automatically serves 404.html for missing pages
+# No catch-all redirect needed
